@@ -15,6 +15,7 @@
   - name: configure interface Gig2
     ios_config:
       lines:
+        - username siduser109 privilege 15 secret password
         - no shutdown
         - description WAN
         - ip address dhcp
